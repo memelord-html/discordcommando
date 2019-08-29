@@ -1,2 +1,1 @@
-# discordcommando
-Discord kommand (typ inte min kod)= cred till jeva
+cred till jeva och 99kr :D

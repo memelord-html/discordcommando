@@ -1,4 +1,4 @@
-RegisterCommand("discord", function)
+RegisterCommand("discord", function()
     msg("discord.gg/memelord") ----- Byt Länk Hära
 end, false)
 

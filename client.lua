@@ -3,5 +3,8 @@ RegisterCommand("discord", function()
 end, false)
 
 function msg(text)
-    TriggerEvent("chatMessage", "BOT", {0, 147, 248}, text) ------ Byt Färger Hära
-end
+    TriggerEvent('chat:addMessage', {
+        color = { 0 , 147, 255},
+        multiline = true,
+        args = {"discord", "discord.gg/memelord"} ----- Byt Länk Hära
+    })

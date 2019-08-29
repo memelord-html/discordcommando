@@ -1,7 +1,6 @@
 local discord = "discord.gg/memelord" -- byt länken här!
 
 RegisterCommand("discord", function()
-    msg("discord.gg/memelord") ----- Byt Länk Hära
     msg(discord)
 end, false)
 
@@ -10,6 +9,5 @@ function msg(text)
         color = { 0 , 147, 255},
         multiline = true,
         args = {"discord", "discord.gg/memelord"} ----- Byt Länk Hära
-        args = {"discord", discord}
     })
 end

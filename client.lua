@@ -8,6 +8,6 @@ function msg(text)
     TriggerEvent('chat:addMessage', {
         color = { 0 , 147, 255},
         multiline = true,
-        args = {"discord", "discord.gg/memelord"} ----- Byt Länk Hära
+        args = {"discord", "text"} ----- Byt Länk Hära
     })
 end
